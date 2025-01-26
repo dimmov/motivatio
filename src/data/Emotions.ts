@@ -1,0 +1,65 @@
+import {
+  EmotionEmoji,
+  EmotionsData,
+  EmotionType,
+} from "../types/data/EmotionCards";
+
+export const EMOTIONS_DATA: EmotionsData = {
+  items: [
+    {
+      id: "111",
+      title: "Happy",
+      description: "Dome Short description",
+      type: EmotionType.HAPPINESS,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.HAPPINESS,
+    },
+    {
+      id: "222",
+      title: "Sad",
+      description: "Dome Short description",
+      type: EmotionType.SADNESS,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.SADNESS,
+    },
+    {
+      id: "333",
+      title: "Fearful",
+      description: "Dome Short description",
+      type: EmotionType.FEAR,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.FEAR,
+    },
+    {
+      id: "444",
+      title: "Angry",
+      description: "Dome Short description",
+      type: EmotionType.ANGER,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.ANGER,
+    },
+    {
+      id: "555",
+      title: "Surprised",
+      description: "Dome Short description",
+      type: EmotionType.SURPRISE,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.SURPRISE,
+    },
+    {
+      id: "666",
+      title: "Disgusted",
+      description: "Dome Short description",
+      type: EmotionType.DISGUST,
+      selected: 0,
+      imageUrl: "",
+      emoji: EmotionEmoji.DISGUST,
+    },
+  ],
+  totalCount: 6,
+};
